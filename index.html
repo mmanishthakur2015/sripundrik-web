@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="gold">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Shri Pundrik Goswami Ji Maharaj | Official Spiritual & Cultural Portal</title>
+  <meta name="description" content="Official Portal of Shri Manmadhava Gaudeshwar Vaishnava Acharya Shri Pundrik Goswami Ji Maharaj - 38th Acharya of Gaudiya Parampara, Vrindavan Dham.">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Yatra+One&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-announcement-bar">
+    <div class="container top-bar-content">
+      <div class="divine-slogan">
+        <span class="pulse-indicator"></span>
+        <span class="sanskrit-text">जय गौर ! श्री राधा रमण विजयते !</span>
+        <span class="divider">|</span>
+        <span class="announcement-text">
+          <i class="fa-solid fa-bullhorn"></i> Register for Upcoming Mumbai Katha &bull; 
+          <a href="#events" class="announcement-link">Register Now <i class="fa-solid fa-arrow-right"></i></a>
+        </span>
+      </div>
+      <div class="top-bar-contact">
+        <a href="tel:+917696644494"><i class="fa-solid fa-phone"></i> +91-7696644494</a>
+        <a href="mailto:info@sripundrik.com"><i class="fa-solid fa-envelope"></i> info@sripundrik.com</a>
+        <div class="top-socials">
+          <a href="https://www.facebook.com/sripundrik" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://twitter.com/sripundrik" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.instagram.com/sripundrik/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/sripundrik" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://t.me/pundrikji" target="_blank" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Sticky Header / Navbar -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo-area">
+        <img src="assets/images/logo.png" alt="Shri Pundrik Goswami Ji" class="header-logo" onerror="this.src='https://sripundrik.com/wp-content/uploads/2022/11/logo.png'">
+        <div class="brand-text">
+          <h1 class="brand-title">Shri Pundrik Goswami Ji</h1>
+          <span class="brand-subtitle">38th Acharya &bull; Shri Radha Raman Temple &bull; Vrindavan</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="main-navigation" id="mainNav">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          
+          <li class="nav-item has-dropdown">
+            <a href="#about" class="nav-link">Maharaj Ji <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#about" onclick="openInfoModal('life')"><i class="fa-solid fa-om"></i> Divine Life Journey</a></li>
+              <li><a href="#about" onclick="openInfoModal('biography')"><i class="fa-solid fa-book-open"></i> Full Biography</a></li>
+              <li><a href="#about" onclick="openInfoModal('parampara')"><i class="fa-solid fa-tree"></i> Our Sacred Parampara</a></li>
+              <li><a href="#about" onclick="openInfoModal('radharaman')"><i class="fa-solid fa-place-of-worship"></i> Shri Radha Raman Ji</a></li>
+              <li><a href="#about" onclick="openInfoModal('awards')"><i class="fa-solid fa-award"></i> Honours & Awards</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item has-dropdown">
+            <a href="#pillars" class="nav-link">Our Works <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#pillars" onclick="filterPillar('katha')"><i class="fa-solid fa-scroll"></i> Bhagwat Kathas</a></li>
+              <li><a href="#pillars" onclick="filterPillar('youth')"><i class="fa-solid fa-users"></i> Youth Lectures & Talks</a></li>
+              <li><a href="#pillars" onclick="filterPillar('nimai')"><i class="fa-solid fa-graduation-cap"></i> Nimai Pathshala</a></li>
+              <li><a href="#pillars" onclick="filterPillar('culture')"><i class="fa-solid fa-feather"></i> Culture & Sanjhi Mahotsav</a></li>
+              <li><a href="#pillars" onclick="openInfoModal('peace')"><i class="fa-solid fa-dove"></i> Peace & Ethics Initiatives</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item has-dropdown">
+            <a href="#trust" class="nav-link">Trust <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#trust" onclick="openInfoModal('trust-vrindavan')"><i class="fa-solid fa-hands-holding-child"></i> Vaijayanti Sewa Sansthan</a></li>
+              <li><a href="#trust" onclick="openInfoModal('peeth')"><i class="fa-solid fa-landmark"></i> Amritsar & Jalandhar Peeth</a></li>
+              <li><a href="#trust" onclick="openInfoModal('gaushala')"><i class="fa-solid fa-cow"></i> Gaushala Sewa Project</a></li>
+              <li><a href="#trust" onclick="openInfoModal('gopal-club')"><i class="fa-solid fa-hands-praying"></i> Gopal Youth Club</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item has-dropdown">
+            <a href="#services" class="nav-link">Sewa Activities <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#services" onclick="openDonationModal('vittaja')"><i class="fa-solid fa-hand-holding-dollar"></i> Vittaja Sewa (Financial)</a></li>
+              <li><a href="#services" onclick="openDonationModal('tanuka')"><i class="fa-solid fa-handshake-angle"></i> Tanuka Sewa (Physical Sewa)</a></li>
+              <li><a href="#services" onclick="openDonationModal('mansi')"><i class="fa-solid fa-heart"></i> Mansi Sewa (Devotional)</a></li>
+              <li><a href="#services" onclick="openInfoModal('future')"><i class="fa-solid fa-compass"></i> Future Plans & Vision</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a href="#events" class="nav-link">Events</a></li>
+          <li class="nav-item"><a href="#videos" class="nav-link">Videos</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action Buttons -->
+      <div class="header-actions">
+        <button class="btn btn-donate" onclick="openDonationModal('general')">
+          <i class="fa-solid fa-hand-holding-heart"></i> <span>Seva / Donate</span>
+        </button>
+        <button class="mobile-toggle-btn" id="mobileMenuToggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <div class="drawer-logo">
+        <img src="assets/images/logo.png" alt="Shri Pundrik Goswami Ji">
+        <div>
+          <h4>Shri Pundrik Goswami Ji</h4>
+          <small>Vrindavan Dham</small>
+        </div>
+      </div>
+      <button class="drawer-close" id="drawerClose">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="#home" class="mobile-nav-item">Home</a></li>
+      <li><a href="#about" class="mobile-nav-item">About Maharaj Ji</a></li>
+      <li><a href="#pillars" class="mobile-nav-item">Our Works & Kathas</a></li>
+      <li><a href="#trust" class="mobile-nav-item">Sewa Sansthan Trust</a></li>
+      <li><a href="#events" class="mobile-nav-item">Upcoming Events</a></li>
+      <li><a href="#videos" class="mobile-nav-item">Satsang Videos</a></li>
+      <li><a href="#gallery" class="mobile-nav-item">Photo Gallery</a></li>
+      <li><a href="#newsletter" class="mobile-nav-item">Newsletter</a></li>
+      <li><a href="#contact" class="mobile-nav-item">Contact Us</a></li>
+    </ul>
+    <div class="drawer-footer">
+      <button class="btn btn-primary btn-block" onclick="openDonationModal('general')">
+        <i class="fa-solid fa-hand-holding-heart"></i> Contribute to Seva
+      </button>
+      <div class="drawer-socials">
+        <a href="https://www.facebook.com/sripundrik" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/sripundrik" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.youtube.com/sripundrik" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://t.me/pundrikji" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+      </div>
+      <div class="drawer-planet-c">
+        Powered by <strong>Planet C</strong>
+      </div>
+    </div>
+  </div>
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+
+  <!-- Hero Banner Carousel -->
+  <section class="hero-carousel-section" id="home">
+    <div class="hero-slider" id="heroSlider">
+      
+      <!-- Slide 1 -->
+      <div class="hero-slide active" style="background-image: url('assets/images/banner-2.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <span class="hero-badge"><i class="fa-solid fa-om"></i> Gaudiya Vaishnava Parampara</span>
+          <h2 class="hero-title">Carrying Forward the Sacred Legacy of Shri Chaitanya Mahaprabhu</h2>
+          <p class="hero-desc">
+            Grandson of Famous Saint Shri Atul Krishna Goswami Ji Maharaj & son of Shri Shribhuti Krishna Goswami Ji Maharaj. Serving the divine tradition of Shri Gopal Bhatt Goswami at Shri Radha Raman Temple, Vrindavan.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary" onclick="openRSVPModal('Mumbai Shrimad Bhagwat Katha')">
+              <i class="fa-solid fa-calendar-check"></i> Register for Katha
+            </button>
+            <a href="#about" class="btn btn-outline">
+              <i class="fa-solid fa-circle-info"></i> Discover Maharaj Ji
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="hero-slide" style="background-image: url('assets/images/banner-4.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <span class="hero-badge"><i class="fa-solid fa-microphone"></i> Global Youth Visionary</span>
+          <h2 class="hero-title">Harmonizing Ancient Vedic Wisdom with Modern Science</h2>
+          <p class="hero-desc">
+            Inspiring the global youth through TEDx talks, international university lectures at IIT, JNU, Michigan University (USA), and Birmingham University (UK). Bridging inner spiritual consciousness with contemporary life.
+          </p>
+          <div class="hero-buttons">
+            <a href="#videos" class="btn btn-primary">
+              <i class="fa-solid fa-play"></i> Watch Lectures
+            </a>
+            <a href="#pillars" class="btn btn-outline">
+              <i class="fa-solid fa-graduation-cap"></i> Nimai Pathshala
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="hero-slide" style="background-image: url('assets/images/banner-5.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <span class="hero-badge"><i class="fa-solid fa-hands-holding"></i> Compassion & Welfare</span>
+          <h2 class="hero-title">Selfless Devotion Through Seva, Gaushala & Youth Welfare</h2>
+          <p class="hero-desc">
+            Vaijayanti Sewa Sansthan Trust uplifts countless lives through free gau-seva, educational initiatives, Vedic ashrams, and spiritual retreats across Vrindavan, Amritsar, Jalandhar, and Ludhiana.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary" onclick="openDonationModal('gaushala')">
+              <i class="fa-solid fa-cow"></i> Support Gaushala Seva
+            </button>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fa-solid fa-location-dot"></i> Visit Vaijayanti Ashram
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="hero-slide" style="background-image: url('assets/images/banner-6.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <span class="hero-badge"><i class="fa-solid fa-sun"></i> Cultural Celebration</span>
+          <h2 class="hero-title">Sanjhi Mahotsav & Shrimad Bhagwat Katha Mahotsav</h2>
+          <p class="hero-desc">
+            Immerse your heart in the transcendent nectar of Hari Katha, kirtan, and the ancient art of Sanjhi from the holy grounds of Vraj Vrindavan.
+          </p>
+          <div class="hero-buttons">
+            <a href="#events" class="btn btn-primary">
+              <i class="fa-solid fa-calendar-days"></i> Katha Schedule
+            </a>
+            <a href="#gallery" class="btn btn-outline">
+              <i class="fa-solid fa-images"></i> View Photo Gallery
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Slider Controls -->
+    <button class="slider-btn prev-btn" id="prevSlide" aria-label="Previous Slide"><i class="fa-solid fa-arrow-left"></i></button>
+    <button class="slider-btn next-btn" id="nextSlide" aria-label="Next Slide"><i class="fa-solid fa-arrow-right"></i></button>
+
+    <!-- Slider Pagination Dots -->
+    <div class="slider-dots" id="sliderDots">
+      <span class="dot active" data-index="0"></span>
+      <span class="dot" data-index="1"></span>
+      <span class="dot" data-index="2"></span>
+      <span class="dot" data-index="3"></span>
+    </div>
+  </section>
+
+  <!-- Live Countdown & Quick Registration Ticker -->
+  <section class="live-ticker-section">
+    <div class="container ticker-container">
+      <div class="ticker-left">
+        <div class="live-beacon">
+          <span class="beacon-circle"></span>
+          <span class="beacon-label">UPCOMING KATHA</span>
+        </div>
+        <div class="ticker-info">
+          <h4>Shrimad Braj Bhagwat Katha &bull; Azad Maidan, Fort Mumbai</h4>
+          <p><i class="fa-regular fa-clock"></i> Daily 4:00 PM - 7:00 PM &bull; By Pujya Shri Pundrik Goswami Ji</p>
+        </div>
+      </div>
+
+      <!-- Live Countdown -->
+      <div class="ticker-countdown" id="eventCountdown">
+        <div class="countdown-unit">
+          <span class="num" id="cdDays">08</span>
+          <span class="lbl">Days</span>
+        </div>
+        <div class="countdown-sep">:</div>
+        <div class="countdown-unit">
+          <span class="num" id="cdHours">14</span>
+          <span class="lbl">Hours</span>
+        </div>
+        <div class="countdown-sep">:</div>
+        <div class="countdown-unit">
+          <span class="num" id="cdMinutes">36</span>
+          <span class="lbl">Mins</span>
+        </div>
+        <div class="countdown-sep">:</div>
+        <div class="countdown-unit">
+          <span class="num" id="cdSeconds">20</span>
+          <span class="lbl">Secs</span>
+        </div>
+      </div>
+
+      <div class="ticker-action">
+        <button class="btn btn-ticker" onclick="openRSVPModal('Mumbai Katha Day 5')">
+          <i class="fa-solid fa-ticket"></i> Free Pass RSVP
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: Legacy Overview & Core Pillars -->
+  <section class="section-padding pillars-section" id="pillars">
+    <div class="container">
+      
+      <div class="section-header text-center">
+        <span class="sub-badge">DIVINE INITIATIVES</span>
+        <h2 class="section-title">Carrying Forward the Sacred Lineage</h2>
+        <div class="decorative-separator">
+          <span class="line"></span>
+          <img src="assets/images/floral-decor.png" alt="Decor" class="decor-img" onerror="this.style.display='none'">
+          <span class="line"></span>
+        </div>
+        <p class="section-subtitle">
+          Shri Manmadhava Gaudeshwar Vaishnava Acharya Shri Pundrik Goswami Ji is the grandson of the legendary saint Shri Atul Krishna Goswami Ji Maharaj and son of famous Bhagwat orator Shri Shribhuti Krishna Goswami Ji Maharaj. He carries forward the timeless heritage of Shri Gopal Bhatt Goswami, one of the famous Six Goswamis of Vrindavan.
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+        
+        <!-- Card 1: Bhagwat Katha -->
+        <div class="pillar-card" data-category="katha">
+          <div class="pillar-img-wrap">
+            <img src="assets/images/front-pics-1.jpg" alt="Bhagawat Katha" onerror="this.src='https://sripundrik.com/wp-content/uploads/2022/11/front-pics-1.jpg'">
+            <span class="pillar-tag"><i class="fa-solid fa-om"></i> Shrimad Bhagwat</span>
+          </div>
+          <div class="pillar-body">
+            <h3>Bhagawat Katha</h3>
+            <p>
+              Maharaj Shri Pundrik Goswami Ji has delivered divine Kathas across India and the globe. His clarity of thought and magnetic spiritual aura have connected millions of souls to pure Krishna Consciousness.
+            </p>
+            <button class="pillar-link" onclick="openInfoModal('katha-info')">
+              Explore Kathas <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 2: Youth Lectures -->
+        <div class="pillar-card" data-category="youth">
+          <div class="pillar-img-wrap">
+            <img src="assets/images/front-pics-2.jpg" alt="Youth Lectures" onerror="this.src='https://sripundrik.com/wp-content/uploads/2022/11/front-pics-2.jpg'">
+            <span class="pillar-tag"><i class="fa-solid fa-graduation-cap"></i> Global Universities</span>
+          </div>
+          <div class="pillar-body">
+            <h3>Youth Lectures & Talks</h3>
+            <p>
+              Keynote speaker at elite global institutions including Delhi University, JNU, IIT Roorkee, Rotary Club, University of Michigan (USA), and University of Birmingham (UK), empowering youth with spiritual resilience.
+            </p>
+            <button class="pillar-link" onclick="openInfoModal('lectures-info')">
+              View Keynotes <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 3: Nimai Pathshala -->
+        <div class="pillar-card highlight-card" data-category="nimai">
+          <div class="pillar-img-wrap">
+            <img src="assets/images/front-pics-3.png" alt="Nimai Pathshala" onerror="this.src='https://sripundrik.com/wp-content/uploads/2022/11/front-pics-3.png'">
+            <span class="pillar-tag special-tag"><i class="fa-solid fa-star"></i> Online Vedic School</span>
+          </div>
+          <div class="pillar-body">
+            <h3>Nimai Pathshala</h3>
+            <p>
+              A revolutionary digital Vedic learning ecosystem. Welcoming devotees of all age groups worldwide with creative classes conducted live online from the comfort and sanctuary of your home.
+            </p>
+            <button class="pillar-link" onclick="openInfoModal('nimai-info')">
+              Join Pathshala <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 4: Sanjhi Mahotsav -->
+        <div class="pillar-card" data-category="culture">
+          <div class="pillar-img-wrap">
+            <img src="assets/images/front-pics-4.jpg" alt="Sanjhi Mahotsav" onerror="this.src='https://sripundrik.com/wp-content/uploads/2022/11/front-pics-4.jpg'">
+            <span class="pillar-tag"><i class="fa-solid fa-feather"></i> Sacred Vraj Tradition</span>
+          </div>
+          <div class="pillar-body">
+            <h3>Sanjhi Mahotsav</h3>
+            <p>
+              Originating from the pure loving gestures of Shri Radha Rani and the Gopis of Vraj, Sanjhi celebrates the timeless artistic expression of devotion with flower stencils, colors, and divine celebrations.
+            </p>
+            <button class="pillar-link" onclick="openInfoModal('sanjhi-info')">
+              Discover Sanjhi <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 2: TEDx & About Maharaj Ji Feature -->
+  <section class="section-padding about-feature-section" id="about">
+    <div class="container">
+      <div class="about-feature-grid">
+        
+        <div class="about-feature-image-col">
+          <div class="feature-image-frame">
+            <img src="assets/images/pundrik-1.jpg" alt="Acharya Shri Pundrik Goswami Ji" class="main-portrait" onerror="this.src='assets/images/pundrik-2.jpg'">
+            <div class="experience-badge">
+              <span class="badge-num">38th</span>
+              <span class="badge-text">Acharya of Gaudiya Parampara</span>
+            </div>
+            <div class="temple-origin-badge">
+              <i class="fa-solid fa-place-of-worship"></i>
+              <span>Shri Radha Raman Temple &bull; Est. 1542 AD</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-feature-content-col">
+          <span class="sub-badge">FROM RELIGIOSITY TO SPIRITUALITY</span>
+          <h2 class="feature-headline">Shri Pundrik Goswami Ji Maharaj</h2>
+          
+          <blockquote class="tedx-quote">
+            <i class="fa-solid fa-quote-left quote-icon"></i>
+            <p>
+              “The whole world was looking at me, they were judging me. Is he capable of sitting on the seat? Will he be able to do anything? He is too young!”
+            </p>
+            <cite>&mdash; Maharaj Shri Pundrik Ji, TEDx Stage</cite>
+          </blockquote>
+
+          <div class="feature-body-text">
+            <p>
+              In 2017, through the prestigious global stage of TEDx, Maharaj Shri Pundrik Goswami Ji shared the defining turning point of his life in a talk titled <strong>"From Religiosity to Spirituality"</strong>. Today, as a devoted Seva Adhikari of Shri Radha Raman Ji, he travels worldwide to awaken Krishna consciousness and unconditional love for God.
+            </p>
+            <p>
+              His philosophy harmonizes eternal Vedic scriptures with modern scientific logic, empowering young minds to overcome anxiety, negativity, and material confusion through awakened inner consciousness.
+            </p>
+          </div>
+
+          <!-- Impact Metrics Grid -->
+          <div class="stats-counter-grid">
+            <div class="stat-item">
+              <span class="stat-number" data-target="500">500+</span>
+              <span class="stat-label">Kathas Delivered</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="15">15+</span>
+              <span class="stat-label">Countries Visited</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="2500">2,500+</span>
+              <span class="stat-label">Cows Protected</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="50000">50k+</span>
+              <span class="stat-label">Students Guided</span>
+            </div>
+          </div>
+
+          <div class="feature-cta-actions">
+            <button class="btn btn-primary" onclick="openInfoModal('biography')">
+              <i class="fa-solid fa-user-tie"></i> Read Full Biography
+            </button>
+            <a href="https://youtu.be/RvE2R3nyUdQ" target="_blank" class="btn btn-outline">
+              <i class="fa-brands fa-youtube"></i> Watch TEDx & Keynotes
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Identity Cards: 3 Pillars of Maharaj Ji -->
+      <div class="identity-cards-row">
+        
+        <div class="identity-card">
+          <div class="identity-icon">
+            <i class="fa-solid fa-microphone-lines"></i>
+          </div>
+          <div class="identity-details">
+            <h4>Motivational Speaker</h4>
+            <p>His contemporary approach provides a harmonious blend of science and spirituality, deeply resonating with modern youth.</p>
+          </div>
+        </div>
+
+        <div class="identity-card">
+          <div class="identity-icon">
+            <i class="fa-solid fa-dharmachakra"></i>
+          </div>
+          <div class="identity-details">
+            <h4>38th Acharya</h4>
+            <p>Direct lineage of Shri Chaitanya Mahaprabhu & Shri Gopal Bhatt Goswami Ji at Shri Radha Raman Temple, Vrindavan.</p>
+          </div>
+        </div>
+
+        <div class="identity-card">
+          <div class="identity-icon">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+          </div>
+          <div class="identity-details">
+            <h4>Social Philanthropist</h4>
+            <p>Spearheading free gaushalas, charitable healthcare, Annadanam centers, and Vedic schools across multiple states.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 3: Upcoming Katha Events & Schedule -->
+  <section class="section-padding events-section" id="events">
+    <div class="container">
+      
+      <div class="section-header text-center">
+        <span class="sub-badge">JOIN SATSANG</span>
+        <h2 class="section-title">Upcoming Schedule of Events</h2>
+        <div class="decorative-separator">
+          <span class="line"></span>
+          <img src="assets/images/floral-decor.png" alt="Decor" class="decor-img" onerror="this.style.display='none'">
+          <span class="line"></span>
+        </div>
+        <p class="section-subtitle">
+          Join Pujya Maharaj Ji in person or through live broadcasts. Reserve your complimentary seating pass in advance.
+        </p>
+      </div>
+
+      <!-- Event Category Filter Tabs -->
+      <div class="event-filter-tabs">
+        <button class="event-tab-btn active" data-filter="all">All Events</button>
+        <button class="event-tab-btn" data-filter="katha">Shrimad Bhagwat Katha</button>
+        <button class="event-tab-btn" data-filter="talk">Youth & Interfaith</button>
+        <button class="event-tab-btn" data-filter="utsav">Vraj Utsav</button>
+      </div>
+
+      <!-- Events Grid -->
+      <div class="events-grid">
+        
+        <!-- Event 1 -->
+        <div class="event-card" data-event-type="katha">
+          <div class="event-thumbnail">
+            <img src="assets/images/event-1.jpg" alt="Shrimad Bhagwat Katha Kolkata" onerror="this.src='assets/images/banner-4.jpg'">
+            <div class="event-date-badge">
+              <span class="date-day">12</span>
+              <span class="date-month">JAN</span>
+            </div>
+            <span class="event-status-tag live">Upcoming</span>
+          </div>
+          <div class="event-content">
+            <div class="event-meta">
+              <span><i class="fa-regular fa-clock"></i> 3:00 PM - 6:00 PM IST</span>
+              <span><i class="fa-solid fa-location-dot"></i> PC Chandra Garden, Kolkata</span>
+            </div>
+            <h3 class="event-title">Shrimad Bhagwat Katha Mahotsav</h3>
+            <p class="event-summary">
+              Experience transcendental discourses exploring the 10th Canto of Srimad Bhagavatam and the divine pastimes of Shri Krishna.
+            </p>
+            <div class="event-footer">
+              <button class="btn btn-event-rsvp" onclick="openRSVPModal('Shrimad Bhagwat Katha Kolkata')">
+                <i class="fa-solid fa-ticket"></i> Book Free Seat
+              </button>
+              <button class="btn btn-event-details" onclick="openInfoModal('kolkata-katha')">
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="event-card" data-event-type="katha">
+          <div class="event-thumbnail">
+            <img src="assets/images/event-2.jpg" alt="Shri Braj Bhagwat Katha Mumbai" onerror="this.src='assets/images/banner-5.jpg'">
+            <div class="event-date-badge">
+              <span class="date-day">27</span>
+              <span class="date-month">JAN</span>
+            </div>
+            <span class="event-status-tag live">Featured</span>
+          </div>
+          <div class="event-content">
+            <div class="event-meta">
+              <span><i class="fa-regular fa-clock"></i> 4:00 PM - 7:00 PM IST</span>
+              <span><i class="fa-solid fa-location-dot"></i> Azad Maidan, Fort, Mumbai</span>
+            </div>
+            <h3 class="event-title">Shri Braj Bhagwat Katha Mahayagya</h3>
+            <p class="event-summary">
+              Grand spiritual convention in Mumbai featuring Vedic chanting, kirtan ras, and deep spiritual insights for modern life.
+            </p>
+            <div class="event-footer">
+              <button class="btn btn-event-rsvp" onclick="openRSVPModal('Shri Braj Bhagwat Katha Mumbai')">
+                <i class="fa-solid fa-ticket"></i> Book Free Seat
+              </button>
+              <button class="btn btn-event-details" onclick="openInfoModal('mumbai-katha')">
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="event-card" data-event-type="utsav">
+          <div class="event-thumbnail">
+            <img src="assets/images/front-pics-4.jpg" alt="Vrindavan Holi & Sanjhi Mahotsav" onerror="this.src='assets/images/banner-2.jpg'">
+            <div class="event-date-badge">
+              <span class="date-day">14</span>
+              <span class="date-month">MAR</span>
+            </div>
+            <span class="event-status-tag">Annual Utsav</span>
+          </div>
+          <div class="event-content">
+            <div class="event-meta">
+              <span><i class="fa-regular fa-clock"></i> All Day Satsang</span>
+              <span><i class="fa-solid fa-location-dot"></i> Shri Radha Raman Temple, Vrindavan</span>
+            </div>
+            <h3 class="event-title">Vrindavan Holi & Sanjhi Darshan</h3>
+            <p class="event-summary">
+              Traditional floral Phoolon Ki Holi, Samaj Gayan, and darshan of Thakur Shri Radha Raman Lal Ji Maharaj in Vraj Dham.
+            </p>
+            <div class="event-footer">
+              <button class="btn btn-event-rsvp" onclick="openRSVPModal('Vrindavan Holi Mahotsav')">
+                <i class="fa-solid fa-ticket"></i> Register Darshan
+              </button>
+              <button class="btn btn-event-details" onclick="openInfoModal('vrindavan-holi')">
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 4: Video Showcase & YouTube Player -->
+  <section class="section-padding videos-section" id="videos">
+    <div class="container">
+      
+      <div class="section-header text-center">
+        <span class="sub-badge">WATCH & MEDITATE</span>
+        <h2 class="section-title">Spiritual Discourses & Kirtan</h2>
+        <div class="decorative-separator">
+          <span class="line"></span>
+          <img src="assets/images/floral-decor.png" alt="Decor" class="decor-img" onerror="this.style.display='none'">
+          <span class="line"></span>
+        </div>
+        <p class="section-subtitle">
+          Awaken your soul with enlightening lectures, mind management techniques, and blissful kirtans streamed globally.
+        </p>
+      </div>
+
+      <div class="video-grid-wrapper">
+        
+        <!-- Video 1 -->
+        <div class="video-card">
+          <div class="video-thumbnail-box" onclick="openVideoPlayer('RvE2R3nyUdQ', 'Mere Sapano Ke Bharat Me HALLOWEEN?')">
+            <img src="assets/images/video-1.jpg" alt="Mere Sapano Ke Bharat Me HALLOWEEN?" onerror="this.src='https://img.youtube.com/vi/RvE2R3nyUdQ/hqdefault.jpg'">
+            <div class="video-play-btn"><i class="fa-solid fa-play"></i></div>
+            <span class="video-duration">18:42</span>
+          </div>
+          <div class="video-info">
+            <span class="video-tag">Youth & Culture</span>
+            <h4 class="video-title">Mere Sapano Ke Bharat Me HALLOWEEN?</h4>
+            <p class="video-desc">A deep dive into cultural identity, roots, and preserving our Sanatan spiritual ethos.</p>
+          </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="video-card">
+          <div class="video-thumbnail-box" onclick="openVideoPlayer('m_tQPbCM8Jw', 'मन ही बंधन मन ही मुक्ति ll Sri Pundrik ll')">
+            <img src="assets/images/video-1.jpg" alt="मन ही बंधन मन ही मुक्ति" onerror="this.src='https://img.youtube.com/vi/m_tQPbCM8Jw/hqdefault.jpg'">
+            <div class="video-play-btn"><i class="fa-solid fa-play"></i></div>
+            <span class="video-duration">24:15</span>
+          </div>
+          <div class="video-info">
+            <span class="video-tag">Mind Management</span>
+            <h4 class="video-title">मन ही बंधन मन ही मुक्ति ll Sri Pundrik ll</h4>
+            <p class="video-desc">Mastering the mind through Gita wisdom: How our thoughts shape bondage or eternal liberation.</p>
+          </div>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="video-card">
+          <div class="video-thumbnail-box" onclick="openVideoPlayer('jjukkSqetvU', 'Pain Killer Kirtan ll Hear & Meditate')">
+            <img src="assets/images/video-2.jpg" alt="Pain Killer Kirtan" onerror="this.src='https://img.youtube.com/vi/jjukkSqetvU/hqdefault.jpg'">
+            <div class="video-play-btn"><i class="fa-solid fa-play"></i></div>
+            <span class="video-duration">32:00</span>
+          </div>
+          <div class="video-info">
+            <span class="video-tag">Meditation & Kirtan</span>
+            <h4 class="video-title">Pain Killer Kirtan ll Hear & Meditate</h4>
+            <p class="video-desc">Transcendental Mahamantra sound vibration that heals anxiety, brings inner peace, and awakens prema.</p>
+          </div>
+        </div>
+
+        <!-- Video 4 -->
+        <div class="video-card">
+          <div class="video-thumbnail-box" onclick="openVideoPlayer('H4UdYYRrTXM', 'Mere Sapno Ka Bharat ll Sri Pundrik')">
+            <img src="assets/images/video-1.jpg" alt="Mere Sapno Ka Bharat" onerror="this.src='https://img.youtube.com/vi/H4UdYYRrTXM/hqdefault.jpg'">
+            <div class="video-play-btn"><i class="fa-solid fa-play"></i></div>
+            <span class="video-duration">21:50</span>
+          </div>
+          <div class="video-info">
+            <span class="video-tag">National Pride</span>
+            <h4 class="video-title">Mere Sapno Ka Bharat ll Sri Pundrik ll</h4>
+            <p class="video-desc">Maharaj Ji's inspiring vision for an enlightened, compassionate, and self-reliant Bharat.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center video-channel-btn-box">
+        <a href="https://www.youtube.com/@SriPundrik/videos" target="_blank" class="btn btn-primary">
+          <i class="fa-brands fa-youtube"></i> Visit Official YouTube Channel (500+ Videos)
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 5: Photo Gallery with Lightbox -->
+  <section class="section-padding gallery-section" id="gallery">
+    <div class="container">
+      
+      <div class="section-header text-center">
+        <span class="sub-badge">SACRED MEMORIES</span>
+        <h2 class="section-title">Photo Gallery & Darshan</h2>
+        <div class="decorative-separator">
+          <span class="line"></span>
+          <img src="assets/images/floral-decor.png" alt="Decor" class="decor-img" onerror="this.style.display='none'">
+          <span class="line"></span>
+        </div>
+        <p class="section-subtitle">
+          Glimpses of spiritual kathas, international conferences, Vrindavan temple darshans, and gau-seva.
+        </p>
+      </div>
+
+      <!-- Gallery Filter -->
+      <div class="gallery-filter-tabs">
+        <button class="gallery-filter-btn active" data-filter="all">All Photos</button>
+        <button class="gallery-filter-btn" data-filter="katha">Katha Moments</button>
+        <button class="gallery-filter-btn" data-filter="darshan">Darshan</button>
+        <button class="gallery-filter-btn" data-filter="youth">Youth Seminars</button>
+      </div>
+
+      <div class="gallery-grid">
+        
+        <!-- Photo 1 -->
+        <div class="gallery-item" data-category="katha">
+          <div class="gallery-img-box">
+            <img src="assets/images/gallery-1.jpg" alt="Acharya Shri Pundrik Goswami Ji" onerror="this.src='https://sripundrik.com/wp-content/uploads/2014/01/gallery-1-1.jpg'">
+            <div class="gallery-hover-overlay">
+              <button class="btn-like" onclick="likeGalleryItem(this, event)">
+                <i class="fa-solid fa-heart"></i> <span class="like-count">248</span>
+              </button>
+              <div class="gallery-caption">
+                <h5>Shri Manmadhava Gaudeshwar Vaishnava Acharya</h5>
+                <p>Divine Discourse in Vrindavan</p>
+              </div>
+              <button class="btn-zoom" onclick="openLightbox('assets/images/gallery-1.jpg', 'Shri Manmadhava Gaudeshwar Vaishnava Acharya Shri Pundrik Goswami Ji')">
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo 2 -->
+        <div class="gallery-item" data-category="youth">
+          <div class="gallery-img-box">
+            <img src="assets/images/gallery-2.jpg" alt="Spiritual Motivational Speaker" onerror="this.src='https://sripundrik.com/wp-content/uploads/2014/01/gallery-6.jpg'">
+            <div class="gallery-hover-overlay">
+              <button class="btn-like" onclick="likeGalleryItem(this, event)">
+                <i class="fa-solid fa-heart"></i> <span class="like-count">194</span>
+              </button>
+              <div class="gallery-caption">
+                <h5>Spiritual Keynote Presentation</h5>
+                <p>Empowering Youth with Vedic Values</p>
+              </div>
+              <button class="btn-zoom" onclick="openLightbox('assets/images/gallery-2.jpg', 'Spiritual Motivational Speaker - Keynote Conference')">
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo 3 -->
+        <div class="gallery-item" data-category="katha">
+          <div class="gallery-img-box">
+            <img src="assets/images/gallery-3.jpg" alt="Bhagwat Katha Programme" onerror="this.src='https://sripundrik.com/wp-content/uploads/2014/01/gallery-4.jpg'">
+            <div class="gallery-hover-overlay">
+              <button class="btn-like" onclick="likeGalleryItem(this, event)">
+                <i class="fa-solid fa-heart"></i> <span class="like-count">312</span>
+              </button>
+              <div class="gallery-caption">
+                <h5>Bhagwat Katha Programme</h5>
+                <p>Thousands Gather in Devotional Ecstasy</p>
+              </div>
+              <button class="btn-zoom" onclick="openLightbox('assets/images/gallery-3.jpg', 'Bhagwat Katha Programme Assembly')">
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo 4 -->
+        <div class="gallery-item" data-category="darshan">
+          <div class="gallery-img-box">
+            <img src="assets/images/gallery-4.jpg" alt="Lineage of Gaudiya Parampara" onerror="this.src='https://sripundrik.com/wp-content/uploads/2014/01/gallery-5.jpg'">
+            <div class="gallery-hover-overlay">
+              <button class="btn-like" onclick="likeGalleryItem(this, event)">
+                <i class="fa-solid fa-heart"></i> <span class="like-count">287</span>
+              </button>
+              <div class="gallery-caption">
+                <h5>38th Acharya in Sacred Lineage</h5>
+                <p>Shri Radha Raman Temple Vrindavan</p>
+              </div>
+              <button class="btn-zoom" onclick="openLightbox('assets/images/gallery-4.jpg', 'Maharaj Sri is the 38th Acharya in the lineage of Gaudiya Parampara.')">
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 6: Trust & Seva Sansthan Section -->
+  <section class="section-padding trust-section" id="trust">
+    <div class="container">
+      
+      <div class="section-header text-center">
+        <span class="sub-badge">CHARITABLE PILLARS</span>
+        <h2 class="section-title">Vaijayanti Sewa Sansthan Trust</h2>
+        <div class="decorative-separator">
+          <span class="line"></span>
+          <img src="assets/images/floral-decor.png" alt="Decor" class="decor-img" onerror="this.style.display='none'">
+          <span class="line"></span>
+        </div>
+        <p class="section-subtitle">
+          Established under the guidance of Pujya Maharaj Ji to serve humanity, protect Sanatan Dharma, shelter cows, and nurture Vedic values.
+        </p>
+      </div>
+
+      <div class="trust-cards-grid">
+        
+        <div class="trust-card">
+          <div class="trust-icon-box">
+            <i class="fa-solid fa-cow"></i>
+          </div>
+          <h3>Gaushala Sewa</h3>
+          <p>Protecting indigenous Desi cows with nutritious green fodder, 24/7 veterinary care, and loving shelter at Vrindavan & Punjab gaushalas.</p>
+          <button class="btn-text-link" onclick="openDonationModal('gaushala')">
+            Sponsor a Cow <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-icon-box">
+            <i class="fa-solid fa-bowl-rice"></i>
+          </div>
+          <h3>Daily Annadanam</h3>
+          <p>Serving thousands of warm, pure satvik prasadam meals daily to visiting pilgrims, sadhus, widows, and needy families across Vraj.</p>
+          <button class="btn-text-link" onclick="openDonationModal('annadanam')">
+            Sponsor Annadanam <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-icon-box">
+            <i class="fa-solid fa-book-quran"></i>
+          </div>
+          <h3>Vedic Gurukul & Education</h3>
+          <p>Providing free traditional Sanskrit education, Vedas, Bhagavad Gita lessons, and modern IT literacy through Nimai Pathshala.</p>
+          <button class="btn-text-link" onclick="openDonationModal('education')">
+            Support a Student <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-icon-box">
+            <i class="fa-solid fa-hospital"></i>
+          </div>
+          <h3>Medical Relief Camps</h3>
+          <p>Organizing free eye surgeries, diagnostic health camps, and distribution of medicines for impoverished elderly devotees in Vrindavan.</p>
+          <button class="btn-text-link" onclick="openDonationModal('medical')">
+            Contribute Medical Aid <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 7: Interactive Donation & Seva Modal Area -->
+  <section class="section-padding donation-promo-section" id="services">
+    <div class="container">
+      <div class="donation-card-box">
+        <div class="donation-content-left">
+          <span class="sub-badge-gold">OFFER YOUR SEVA</span>
+          <h2>Participate in Divine Seva & Philanthropy</h2>
+          <p>
+            “Dharma protects those who protect Dharma.” Offer your heart and support to the sacred missions of Vaijayanti Sewa Sansthan Trust. Every rupee directly nourishes cows, feeds pilgrims, and spreads Vedic light.
+          </p>
+
+          <!-- Seva Presets -->
+          <div class="seva-presets">
+            <button class="preset-btn active" data-amount="501" onclick="selectDonationPreset(501)">₹501</button>
+            <button class="preset-btn" data-amount="1100" onclick="selectDonationPreset(1100)">₹1,100</button>
+            <button class="preset-btn" data-amount="2100" onclick="selectDonationPreset(2100)">₹2,100</button>
+            <button class="preset-btn" data-amount="5100" onclick="selectDonationPreset(5100)">₹5,100</button>
+            <button class="preset-btn" data-amount="11000" onclick="selectDonationPreset(11000)">₹11,000</button>
+          </div>
+
+          <div class="custom-amount-wrapper">
+            <div class="currency-symbol">₹</div>
+            <input type="number" id="customDonationInput" class="custom-amount-input" placeholder="Enter other amount" value="1100">
+            <button class="btn btn-primary" onclick="proceedToDonate()">
+              <i class="fa-solid fa-qrcode"></i> Donate via UPI / NetBanking
+            </button>
+          </div>
+        </div>
+
+        <div class="donation-card-right">
+          <div class="bank-details-box">
+            <h4><i class="fa-solid fa-building-columns"></i> Official Bank Accounts</h4>
+            <div class="bank-row">
+              <span class="bank-lbl">Account Name:</span>
+              <span class="bank-val">Vaijayanti Sewa Sansthan Trust</span>
+            </div>
+            <div class="bank-row">
+              <span class="bank-lbl">Bank:</span>
+              <span class="bank-val">State Bank of India (Vrindavan)</span>
+            </div>
+            <div class="bank-row">
+              <span class="bank-lbl">Account No:</span>
+              <span class="bank-val" id="accNumber">32568910452</span>
+              <button class="btn-copy" onclick="copyText('accNumber', 'Account Number Copied!')" title="Copy"><i class="fa-regular fa-copy"></i></button>
+            </div>
+            <div class="bank-row">
+              <span class="bank-lbl">IFSC Code:</span>
+              <span class="bank-val" id="ifscCode">SBIN0000738</span>
+              <button class="btn-copy" onclick="copyText('ifscCode', 'IFSC Copied!')" title="Copy"><i class="fa-regular fa-copy"></i></button>
+            </div>
+            <div class="bank-row">
+              <span class="bank-lbl">UPI ID:</span>
+              <span class="bank-val" id="upiId">sripundrik@sbi</span>
+              <button class="btn-copy" onclick="copyText('upiId', 'UPI ID Copied!')" title="Copy"><i class="fa-regular fa-copy"></i></button>
+            </div>
+            <div class="tax-exempt-notice">
+              <i class="fa-solid fa-shield-halved"></i> Donations qualify for Tax Exemption under 80G of Income Tax Act.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 8: Newsletter Subscription -->
+  <section class="newsletter-section" id="newsletter">
+    <div class="container newsletter-box">
+      <div class="newsletter-left">
+        <div class="newsletter-icon">
+          <i class="fa-solid fa-envelope-open-text"></i>
+        </div>
+        <div>
+          <h3>Subscribe to Daily Satsang & Updates</h3>
+          <p>Receive inspirational quotes from Maharaj Ji, upcoming katha alerts, and festive darshan pictures directly in your inbox.</p>
+        </div>
+      </div>
+      <div class="newsletter-right">
+        <form class="newsletter-form" id="newsletterForm" onsubmit="handleNewsletterSubmit(event)">
+          <div class="input-with-button">
+            <input type="email" id="nlEmail" placeholder="Enter your email address..." required>
+            <button type="submit" class="btn btn-subscribe" id="nlSubmitBtn">
+              <span>Subscribe</span> <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 9: Contact & Ashram Location -->
+  <section class="section-padding contact-section" id="contact">
+    <div class="container">
+      
+      <div class="section-header text-center">
+        <span class="sub-badge">CONNECT WITH US</span>
+        <h2 class="section-title">Contact Ashram & Seva Sansthan</h2>
+        <div class="decorative-separator">
+          <span class="line"></span>
+          <img src="assets/images/floral-decor.png" alt="Decor" class="decor-img" onerror="this.style.display='none'">
+          <span class="line"></span>
+        </div>
+        <p class="section-subtitle">
+          Have an inquiry regarding Katha organization, Nimai Pathshala enrollment, or ashram accommodation? Send us your message.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        
+        <!-- Contact Information Cards -->
+        <div class="contact-info-col">
+          
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="contact-card-info">
+              <h5>Vrindavan Ashram</h5>
+              <p>Vaijayanti Ashram, Gyan Gudri, Vrindavan, Mathura, Uttar Pradesh, India &bull; PIN: 281121</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="contact-card-info">
+              <h5>Helpline & WhatsApp</h5>
+              <p>+91-7696644494 &bull; +91-9876543210</p>
+              <small>Available 10:00 AM - 7:00 PM IST</small>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="contact-card-info">
+              <h5>Official Correspondence</h5>
+              <p><a href="mailto:sripundrik@sripundrik.com">sripundrik@sripundrik.com</a></p>
+              <p><a href="mailto:info@sripundrik.com">info@sripundrik.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-social-box">
+            <h6>Connect Across Digital Channels</h6>
+            <div class="social-links-row">
+              <a href="https://www.facebook.com/sripundrik" target="_blank" class="s-link fb"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://twitter.com/sripundrik" target="_blank" class="s-link tw"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://www.instagram.com/sripundrik/" target="_blank" class="s-link ig"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.youtube.com/sripundrik" target="_blank" class="s-link yt"><i class="fa-brands fa-youtube"></i></a>
+              <a href="https://t.me/pundrikji" target="_blank" class="s-link tg"><i class="fa-brands fa-telegram"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=917696644494" target="_blank" class="s-link wa"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-col">
+          <div class="form-container-card">
+            <h3>Send a Message / Seva Inquiry</h3>
+            <form id="contactForm" onsubmit="handleContactSubmit(event)">
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contactName">Your Full Name <span class="req">*</span></label>
+                  <input type="text" id="contactName" placeholder="e.g. Ramesh Sharma" required>
+                </div>
+                <div class="form-group">
+                  <label for="contactEmail">Email Address <span class="req">*</span></label>
+                  <input type="email" id="contactEmail" placeholder="e.g. name@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contactPhone">Phone / WhatsApp Number</label>
+                  <input type="tel" id="contactPhone" placeholder="+91 XXXXX XXXXX">
+                </div>
+                <div class="form-group">
+                  <label for="contactInquiryType">Inquiry Purpose</label>
+                  <select id="contactInquiryType">
+                    <option value="General Inquiry">General Satsang Inquiry</option>
+                    <option value="Katha Booking">Katha Invitation / Booking</option>
+                    <option value="Nimai Pathshala">Nimai Pathshala Online Classes</option>
+                    <option value="Gaushala Donation">Gaushala / Seva Contribution</option>
+                    <option value="Ashram Stay">Ashram Accommodation</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contactSubject">Subject</label>
+                <input type="text" id="contactSubject" placeholder="Brief subject...">
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage">Your Message / Prayer Request <span class="req">*</span></label>
+                <textarea id="contactMessage" rows="5" placeholder="Write your message or inquiry here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="contactSubmitBtn">
+                <i class="fa-solid fa-paper-plane"></i> Submit Inquiry
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Main Footer -->
+  <footer class="site-footer">
+    <div class="footer-top-ornament"></div>
+    <div class="container footer-content">
+      
+      <div class="footer-grid">
+        
+        <!-- Col 1: About -->
+        <div class="footer-col footer-col-about">
+          <div class="footer-brand">
+            <img src="assets/images/footer-logo.png" alt="Shri Pundrik Goswami Ji" class="footer-logo" onerror="this.src='assets/images/logo.png'">
+            <h4>Shri Pundrik Goswami Ji</h4>
+          </div>
+          <p class="footer-bio">
+            Shri Manmadhava Gaudeshwar Vaishnava Acharya Shri Pundrik Goswami Ji is the grandson of famous saint Shri Atul Krishna Goswami Ji Maharaj and son of Shri Shribhuti Krishna Goswami Ji Maharaj. 38th Acharya of Gaudiya Parampara at Shri Radha Raman Temple, Vrindavan.
+          </p>
+          <div class="footer-social-row">
+            <a href="https://www.facebook.com/sripundrik" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/sripundrik" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/sripundrik/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/sripundrik" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://t.me/pundrikji" target="_blank" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+            <li><a href="#about"><i class="fa-solid fa-angle-right"></i> About Maharaj Ji</a></li>
+            <li><a href="#pillars"><i class="fa-solid fa-angle-right"></i> Bhagwat Kathas</a></li>
+            <li><a href="#pillars"><i class="fa-solid fa-angle-right"></i> Nimai Pathshala</a></li>
+            <li><a href="#events"><i class="fa-solid fa-angle-right"></i> Upcoming Events</a></li>
+            <li><a href="#videos"><i class="fa-solid fa-angle-right"></i> Discourse Videos</a></li>
+            <li><a href="#gallery"><i class="fa-solid fa-angle-right"></i> Photo Gallery</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Charitable Trusts -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Sewa & Trusts</h4>
+          <ul class="footer-links">
+            <li><a href="#trust" onclick="openInfoModal('trust-vrindavan')"><i class="fa-solid fa-angle-right"></i> Vaijayanti Sewa Sansthan</a></li>
+            <li><a href="#trust" onclick="openInfoModal('gaushala')"><i class="fa-solid fa-angle-right"></i> Vrindavan Gaushala</a></li>
+            <li><a href="#trust" onclick="openInfoModal('peeth')"><i class="fa-solid fa-angle-right"></i> Amritsar & Jalandhar Peeth</a></li>
+            <li><a href="#trust" onclick="openInfoModal('gopal-club')"><i class="fa-solid fa-angle-right"></i> Gopal Youth Club</a></li>
+            <li><a href="#services" onclick="openDonationModal('annadanam')"><i class="fa-solid fa-angle-right"></i> Annadanam Daily Bhandara</a></li>
+            <li><a href="#services" onclick="openDonationModal('general')"><i class="fa-solid fa-angle-right"></i> 80G Tax Exemption Donation</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact Ashram -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Head Ashram</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Vaijayanti Ashram, Gyan Gudri, Vrindavan, Mathura, UP 281121</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>+91-7696644494</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>sripundrik@sripundrik.com</span>
+          </div>
+          <div class="footer-timings">
+            <i class="fa-regular fa-clock"></i>
+            <span>Temple Darshan: 08:00 AM - 12:30 PM | 05:30 PM - 09:00 PM</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Divider -->
+      <div class="footer-divider-line"></div>
+
+      <!-- Bottom Copyright & Powered by Planet C Bar -->
+      <div class="footer-bottom-bar">
+        <div class="copyright-text">
+          All Rights Reserved &copy; 2026. Copyright by <strong>Shri Pundrik Goswami Ji Maharaj</strong>.
+        </div>
+        
+        <!-- EXPLICIT USER REQUIREMENT: Powered by Planet C -->
+        <div class="powered-by-planet-c">
+          <span class="powered-text">Powered by</span>
+          <a href="https://planetc.in" target="_blank" class="planet-c-badge" rel="noopener noreferrer">
+            <span class="planet-c-glow"></span>
+            <i class="fa-solid fa-earth-americas"></i>
+            <strong>Planet C</strong>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Floating Theme Switcher Button & Drawer (USER REQUIREMENT) -->
+  <div class="theme-switcher-wrapper">
+    <!-- Floating Trigger Button -->
+    <button class="theme-switcher-trigger" id="themeSwitcherToggle" aria-label="Change Website Theme" title="Change Theme & Appearance">
+      <i class="fa-solid fa-palette"></i>
+      <span class="pulse-ring"></span>
+    </button>
+
+    <!-- Theme Customization Drawer Panel -->
+    <div class="theme-drawer-panel" id="themeDrawerPanel">
+      <div class="theme-drawer-header">
+        <div class="theme-drawer-title">
+          <i class="fa-solid fa-swatchbook"></i>
+          <h4>Theme Customizer</h4>
+        </div>
+        <button class="theme-drawer-close" id="themeDrawerClose">&times;</button>
+      </div>
+
+      <div class="theme-drawer-body">
+        <p class="theme-drawer-intro">Select your desired divine color theme or toggle dark mode:</p>
+
+        <!-- Theme Options Grid -->
+        <div class="theme-palettes-grid">
+          
+          <!-- Palette 1: Divine Gold -->
+          <button class="palette-card active" data-theme-val="gold" onclick="switchTheme('gold')">
+            <div class="palette-swatch" style="background: linear-gradient(135deg, #d98218, #f5d061);"></div>
+            <div class="palette-info">
+              <span class="palette-name">Divine Gold & Amber</span>
+              <small>Royal Sandalwood</small>
+            </div>
+            <i class="fa-solid fa-check palette-check"></i>
+          </button>
+
+          <!-- Palette 2: Vrindavan Peacock -->
+          <button class="palette-card" data-theme-val="peacock" onclick="switchTheme('peacock')">
+            <div class="palette-swatch" style="background: linear-gradient(135deg, #0d5c58, #38ef7d);"></div>
+            <div class="palette-info">
+              <span class="palette-name">Vrindavan Peacock</span>
+              <small>Mor Pankh Emerald</small>
+            </div>
+            <i class="fa-solid fa-check palette-check"></i>
+          </button>
+
+          <!-- Palette 3: Royal Crimson & Lotus -->
+          <button class="palette-card" data-theme-val="crimson" onclick="switchTheme('crimson')">
+            <div class="palette-swatch" style="background: linear-gradient(135deg, #801328, #f857a6);"></div>
+            <div class="palette-info">
+              <span class="palette-name">Royal Crimson & Rose</span>
+              <small>Sacred Lotus Sindoor</small>
+            </div>
+            <i class="fa-solid fa-check palette-check"></i>
+          </button>
+
+          <!-- Palette 4: Midnight Temple Dark -->
+          <button class="palette-card" data-theme-val="midnight" onclick="switchTheme('midnight')">
+            <div class="palette-swatch" style="background: linear-gradient(135deg, #10141d, #242b3b);"></div>
+            <div class="palette-info">
+              <span class="palette-name">Midnight Temple</span>
+              <small>Mystic Vraj Night</small>
+            </div>
+            <i class="fa-solid fa-check palette-check"></i>
+          </button>
+
+        </div>
+
+        <div class="theme-drawer-divider"></div>
+
+        <!-- Quick Dark Mode Toggle -->
+        <div class="drawer-toggle-row">
+          <div>
+            <strong>Quick Dark Mode</strong>
+            <p>Toggle deep dark contrast</p>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="darkModeToggle" onchange="toggleDarkMode(this.checked)">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <div class="theme-drawer-divider"></div>
+
+        <!-- Font Size Adjuster -->
+        <div class="font-size-adjuster">
+          <span>Text Size:</span>
+          <div class="font-buttons">
+            <button class="font-btn" onclick="adjustFontSize('small')">A-</button>
+            <button class="font-btn active" onclick="adjustFontSize('normal')">A</button>
+            <button class="font-btn" onclick="adjustFontSize('large')">A+</button>
+          </div>
+        </div>
+
+        <div class="theme-drawer-footer">
+          <small><i class="fa-solid fa-shield"></i> Your theme choice is saved automatically.</small>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Quick Actions (WhatsApp & Back to Top) -->
+  <div class="floating-quick-actions">
+    <a href="https://api.whatsapp.com/send?phone=917696644494&text=Radhe%20Radhe!%20I%20would%20like%20to%20know%20more%20about%20Pujya%20Shri%20Pundrik%20Goswami%20Ji%20Maharaj%20events." 
+       class="float-btn float-wa" 
+       target="_blank" 
+       title="Chat on WhatsApp" 
+       aria-label="WhatsApp Chat">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="wa-tooltip">Chat with Ashram</span>
+    </a>
+    <button class="float-btn float-top" id="backToTopBtn" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+  </div>
+
+  <!-- MODAL 1: General Info Modal -->
+  <div class="site-modal" id="infoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 id="infoModalTitle">Topic Title</h3>
+          <button class="modal-close-btn" onclick="closeModal('infoModal')">&times;</button>
+        </div>
+        <div class="modal-body" id="infoModalBody">
+          <!-- Dynamic Content Loaded via JS -->
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-outline" onclick="closeModal('infoModal')">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 2: RSVP / Katha Seating Pass Modal -->
+  <div class="site-modal" id="rsvpModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title-with-icon">
+            <i class="fa-solid fa-ticket-simple"></i>
+            <div>
+              <h3>Complimentary Katha RSVP Pass</h3>
+              <small id="rsvpEventSubtitle">Shrimad Bhagwat Katha</small>
+            </div>
+          </div>
+          <button class="modal-close-btn" onclick="closeModal('rsvpModal')">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form id="rsvpForm" onsubmit="handleRSVPSubmit(event)">
+            <input type="hidden" id="rsvpEventTitle" value="Shrimad Bhagwat Katha">
+            <div class="form-group">
+              <label>Devotee Name <span class="req">*</span></label>
+              <input type="text" id="rsvpName" placeholder="Full name of primary attendee" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>WhatsApp / Mobile Number <span class="req">*</span></label>
+                <input type="tel" id="rsvpPhone" placeholder="+91 XXXXX XXXXX" required>
+              </div>
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" id="rsvpEmail" placeholder="your@email.com">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Number of Devotees Attending</label>
+                <select id="rsvpSeats">
+                  <option value="1">1 Person</option>
+                  <option value="2">2 Persons</option>
+                  <option value="3">3 Persons</option>
+                  <option value="4">4 Persons</option>
+                  <option value="5+">Family (5+ Persons)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>City of Residence</label>
+                <input type="text" id="rsvpCity" placeholder="Your City">
+              </div>
+            </div>
+            <div class="alert-box-info">
+              <i class="fa-solid fa-circle-check"></i> Complimentary seating passes are issued immediately on submission. No registration fee is charged.
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" id="rsvpSubmitBtn">
+              <i class="fa-solid fa-check-circle"></i> Generate & Confirm Pass
+            </button>
+          </form>
+          <div id="rsvpSuccessCard" style="display: none;" class="rsvp-success-card">
+            <div class="success-icon"><i class="fa-solid fa-circle-check"></i></div>
+            <h4>Booking Confirmed! Radhe Radhe!</h4>
+            <div class="pass-box">
+              <span class="pass-lbl">Digital Pass ID</span>
+              <span class="pass-code" id="passCodeDisplay">SPG-882914</span>
+            </div>
+            <p id="rsvpSuccessMsg">Your entry pass has been generated. Please keep this pass reference handy at the entrance.</p>
+            <button class="btn btn-outline btn-block" onclick="closeModal('rsvpModal')">Done</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 3: Video Player Popup Modal -->
+  <div class="site-modal" id="videoModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content video-modal-content">
+        <div class="modal-header">
+          <h4 id="videoModalTitle">Video Title</h4>
+          <button class="modal-close-btn" onclick="closeVideoModal()">&times;</button>
+        </div>
+        <div class="modal-body video-modal-body">
+          <div class="responsive-video-container">
+            <iframe id="videoIframe" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 4: Image Lightbox Modal -->
+  <div class="site-modal lightbox-modal" id="lightboxModal">
+    <div class="lightbox-content">
+      <button class="lightbox-close" onclick="closeModal('lightboxModal')">&times;</button>
+      <img id="lightboxImg" src="" alt="Enlarged Photo">
+      <p id="lightboxCaption" class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- MODAL 5: Dedicated Donation / Seva Modal -->
+  <div class="site-modal" id="donationModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title-with-icon">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+            <div>
+              <h3>Contribute to Sacred Seva</h3>
+              <small>Vaijayanti Sewa Sansthan Trust &bull; 80G Tax Exempt</small>
+            </div>
+          </div>
+          <button class="modal-close-btn" onclick="closeModal('donationModal')">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form id="donationForm" onsubmit="handleDonationSubmit(event)">
+            <div class="form-group">
+              <label>Select Seva Cause <span class="req">*</span></label>
+              <select id="modalSevaCategory">
+                <option value="Gaushala Seva">Vrindavan Gaushala (Cattle Care & Fodder)</option>
+                <option value="Daily Annadanam">Daily Annadanam (Free Satvik Meals to Pilgrims)</option>
+                <option value="Nimai Pathshala">Nimai Pathshala (Vedic Youth Education)</option>
+                <option value="Medical Relief">Medical Relief & Ashram Seva</option>
+                <option value="General Trust">General Welfare Trust Corpus</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Donation Amount (INR) <span class="req">*</span></label>
+              <div class="seva-presets in-modal">
+                <button type="button" class="preset-btn" onclick="setModalAmount(501)">₹501</button>
+                <button type="button" class="preset-btn active" onclick="setModalAmount(1100)">₹1,100</button>
+                <button type="button" class="preset-btn" onclick="setModalAmount(2100)">₹2,100</button>
+                <button type="button" class="preset-btn" onclick="setModalAmount(5100)">₹5,100</button>
+              </div>
+              <input type="number" id="modalDonationAmount" value="1100" min="100" class="modal-amount-input" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Donor Full Name <span class="req">*</span></label>
+                <input type="text" id="donorName" placeholder="Name as per PAN for 80G receipt" required>
+              </div>
+              <div class="form-group">
+                <label>Mobile Number <span class="req">*</span></label>
+                <input type="tel" id="donorPhone" placeholder="+91 XXXXX XXXXX" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Email for 80G Tax Receipt</label>
+              <input type="email" id="donorEmail" placeholder="your@email.com">
+            </div>
+
+            <!-- UPI Scan QR Code Box -->
+            <div class="upi-qr-box">
+              <div class="qr-code-img-wrap">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=upi://pay?pa=sripundrik@sbi%26pn=Vaijayanti%20Sewa%20Sansthan%26cu=INR" alt="UPI QR Code" class="qr-img">
+              </div>
+              <div class="qr-text">
+                <strong>Scan & Pay with Any UPI App</strong>
+                <p>Google Pay, PhonePe, Paytm, BHIM</p>
+                <div class="upi-id-pill">
+                  <span>sripundrik@sbi</span>
+                  <button type="button" onclick="copyText('upiId', 'UPI Copied!')"><i class="fa-regular fa-copy"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="donateSubmitBtn">
+              <i class="fa-solid fa-check"></i> Record Pledge & Receive Receipt
+            </button>
+          </form>
+
+          <div id="donationSuccessCard" style="display: none;" class="rsvp-success-card">
+            <div class="success-icon"><i class="fa-solid fa-heart-circle-check"></i></div>
+            <h4>Pranam! Gratitude for your Seva</h4>
+            <p>Your contribution reference has been noted. Our accounts team will issue the 80G receipt shortly.</p>
+            <div class="pass-box">
+              <span class="pass-lbl">Receipt Reference</span>
+              <span class="pass-code" id="donationReceiptNo">DON-918234</span>
+            </div>
+            <button class="btn btn-outline btn-block" onclick="closeModal('donationModal')">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-notification" id="toastNotification">
+    <div class="toast-icon" id="toastIcon"><i class="fa-solid fa-circle-check"></i></div>
+    <div class="toast-body">
+      <h5 id="toastTitle">Notification</h5>
+      <p id="toastMessage">Action completed successfully.</p>
+    </div>
+    <button class="toast-close" onclick="hideToast()">&times;</button>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
